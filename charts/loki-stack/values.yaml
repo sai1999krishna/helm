@@ -1,5 +1,8 @@
 loki:
   enabled: true
+  persistance:
+    enabled: true
+    size: 1Gi
   
 promtail:
   enabled: true
